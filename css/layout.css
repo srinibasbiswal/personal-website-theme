@@ -1,0 +1,334 @@
+header .scrolldown a:hover 
+
+#nav-wrap ul, #nav-wrap li, #nav-wrap a{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+#nav-wrap{
+  background-color: transparent;
+	font: 12px;
+	width: 100%;
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin: 0 auto;
+	z-index: 100;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+ul#nav {
+   min-height: 48px;
+   width: auto;
+   text-align: center;
+}
+
+ul#nav li {
+   position: relative;
+   list-style: none;
+   display: inline-block;
+   background-color: lightgreen;
+}
+
+ul#nav li a:active { background-color: transparent !important; }
+
+
+
+
+.img-circular{
+ width: 250px;
+ height: 250px;
+ margin-left:auto;
+ margin-right: auto; 
+border-radius: 50%;
+ display: block;
+}
+
+.row {
+   width: 96%;
+   max-width: 1020px;
+   margin: 0 auto;
+}
+
+.row1 {
+   width: 96%;
+   max-width: 1020px;
+   margin: 0 auto;
+}
+
+#home {
+   padding-top: 200px;
+   padding-bottom: 250px;
+   overflow: hidden;
+
+}
+
+
+
+#about {
+
+   padding-top: 50px;
+   padding-bottom: 250px;
+   overflow: hidden;
+
+}
+
+#resume {
+  padding-top: 50px;
+   padding-bottom: 100px;
+   overflow: hidden;
+}
+#heading1 {
+	float: left;
+	width: 33%;
+	height: 100%;
+
+	
+}
+
+#content1 {
+	float: left;
+	width: 67%;
+	
+}
+
+
+#contact {
+   padding-top: 50px;
+   padding-bottom: 250px;
+   overflow: hidden;
+
+}
+
+img{
+	margin: 50px;
+}
+
+footer {
+    background: #4E9258;
+    color: white;
+    font-size: 26px;
+    padding: 10px 0;
+    text-align: center;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+header{
+	background-color: #324a57;
+}
+
+.wrap {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 1140px;
+}
+
+
+.row_main {
+   width: 96%;
+   max-width: 1020px;
+   margin: 0 auto;
+}
+
+.row_main ol{
+    float: left;
+    padding: 0 50px;
+}
+
+
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.container {
+    width: 75%; /* Full width */
+    background-color: #ddd; /* Grey background */
+}
+
+.skills {
+    text-align: right; /* Right-align text */
+    padding-right: 20px; /* Add some right padding */
+    line-height: 40px; /* Set the line-height to center the text inside the skill bar, and to expand the height of the container */
+    color: white; /* White text color */
+}
+
+.c {width: 90%; background-color: #808080;}
+.cplus {width: 90%; background-color: #808080;}
+.java {width: 90%; background-color: #808080;} 
+.htmlandcss {width: 90%; background-color: #808080;}
+.matlab {width: 90%; background-color: #808080;}
+
+
+.social {
+   margin: 24px 0;
+   padding: 0 225px;
+   font-size: 30px;
+   vertical-align: middle;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+.social li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+}
+.social li a { color: green; }
+.social li a:hover { color: #fff; }
+
+.social2 {
+   margin: 10px 0;
+   padding: 0 350px;
+   font-size: 30px;
+   vertical-align: middle;
+   text-shadow: 0px 1px 2px rgba(0, 0, 0, .8);
+}
+.social2 li {
+   display: inline-block;
+   margin: 0 15px;
+   padding: 0;
+}
+.social2 li a { color: lightgreen; }
+.social2 li a:hover { color: #fff; }
+
+
+button{
+  width: 100px; 
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px
+}
+.centerized { 
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#buttonrow1 {
+  float: left;
+  width: 50%;
+  
+}
+
+#buttonrow2 {
+  float: left;
+  width: 50%;
+  
+}
+label{
+   font: 19px/36px 'monospace', sans-serif;
+   margin-bottom: 18px;
+
+}
+h1{
+   color: #313131;
+  font-family: 'Sofia', sans-serif;
+  font-size: 50px;
+   font-weight: bold;
+}
+h2{
+   color: #313131;
+  font-family: 'Sofia', sans-serif;
+  font-size: 50px;
+   font-weight: bold;
+}
+h3{
+   color: #313131;
+  font-family: 'monospace', sans-serif;
+  font-size: 25px;
+   font-weight: bold;
+}
+h4{
+   color: #313131;
+  font-family: 'monospace', sans-serif;
+  font-size: 30px;
+   font-weight: bold;
+}
+p{
+   font: 19px/36px 'monospace', sans-serif;
+   margin-bottom: 18px;
+}
+
+.he{
+   font: 19px 'monospace', sans-serif;
+   
+   color: black;
+}
+
+
+div{
+    margin-top:50px;
+}
+.fade_line{ 
+    display:block;
+    border:none;
+    color:white;
+    height:1px;
+    background:black;
+    background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#000), to(#fff));
+}
+
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */  
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container2 {
+    border-radius: 5px;
+    background-color: transparent;
+    padding: 20px;
+}
+
+.myForm
+{
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@font-face {
+  font-family: 'Sofia';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Sofia'), local('Sofia-Regular'), url(http://fonts.gstatic.com/s/sofia/v5/f2JBzUtFBEg-kZNlFQ7f-Q.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
+}
+
+.wrap2 {
+    margin: 0 auto;
+    padding: 0 0px;
+    text-align-last: right;
+    max-width: 1140px;
+}
